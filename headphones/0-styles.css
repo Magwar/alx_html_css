@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(images/headphones_hero_1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding: 0;
+}
+
+.content-wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 100%;
+}
+
+.header-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+    height: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+}
+
+.navbar img {
+    width: 200px;
+    height: auto;
+}
+
+.navbar .nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar .nav-list li {
+    display: inline;
+}
+
+.navbar .nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.navbar .nav-list li a:hover {
+    color: #ff6565;
+    transition: color 0.3s ease;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 700px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero .hero-text {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    background-color: #ff6565;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 60px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+.hero .btn:hover {
+    background-color: #ff4747;
+    transition: background-color 0.3s ease;
+}
+
+.hero-desc{
+    font-size: 18px;
+    margin-top: 20px;
+    max-width: 600px;
+    line-height: 1.6;
+}
